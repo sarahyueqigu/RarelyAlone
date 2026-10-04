@@ -1,0 +1,201 @@
+{
+  "source": "https://rarediseases.org/rare-diseases/",
+  "retrievedAt": "2026-10-04T01:01:14.652571+00:00",
+  "requestHeaders": {
+    "From": "sarah_gu@college.harvard.edu",
+    "X-Requester": "SarahG"
+  },
+  "notes": [
+    "Each disease was located on the NORD letter page for the first letter of its name.",
+    "OMIM and Orphanet identifiers were read from that disease page.",
+    "omim.api requires an OMIM API key sent as the apiKey parameter.",
+    "orphanet.api is the ORPHAcode API. A request without a token returns 401.",
+    "geneVariantMechanism is the gene and variant effect taken from that OMIM entry's molecular-genetics section. Calls used the headers in this file and were spaced 2 seconds apart."
+  ],
+  "diseases": [
+    {
+      "name": "Noonan Syndrome",
+      "nordReport": true,
+      "synonyms": [
+        "female pseudo-Turner syndrome",
+        "male Turner syndrome",
+        "NS",
+        "Turner phenotype with normal chromosomes (karyotype)"
+      ],
+      "nord": {
+        "wordpressId": "1513",
+        "postType": "rare-diseases",
+        "url": "https://rarediseases.org/rare-diseases/noonan-syndrome/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/rare-diseases/1513"
+      },
+      "omim": {
+        "id": "163950",
+        "url": "https://www.omim.org/entry/163950",
+        "api": "https://api.omim.org/api/entry?mimNumber=163950&format=json"
+      },
+      "orphanet": {
+        "id": "648",
+        "url": "https://www.orpha.net/en/disease/detail/648",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/648"
+      },
+      "query": "Noonan syndrome",
+      "searchUrl": "https://rarediseases.org/rare-diseases/?starts_with=N",
+      "geneVariantMechanism": {
+        "sourceApi": "https://api.omim.org/api/entry?mimNumber=163950&format=json",
+        "sourcePage": "https://www.omim.org/entry/163950",
+        "httpStatus": 200,
+        "genes": [
+          {
+            "symbol": "PTPN11",
+            "aliases": [],
+            "mimNumber": "176876",
+            "inheritance": "Autosomal dominant",
+            "mappingKey": 3
+          }
+        ],
+        "variantMechanism": "Conversely, most mutations in PTPN11 associated with Noonan syndrome, which were sufficient to perturb developmental processes, were not fully leukemogenic, suggesting a milder gain-of-function effect.",
+        "allelicVariants": [],
+        "evidenceSection": "molecularGenetics",
+        "retrievedAt": "2026-10-04T01:24:46.357307+00:00",
+        "detail": null
+      }
+    },
+    {
+      "name": "Costello Syndrome",
+      "nordReport": true,
+      "synonyms": [
+        "faciocutaneoskeletal syndrome",
+        "FCS syndrome"
+      ],
+      "nord": {
+        "wordpressId": "1011",
+        "postType": "rare-diseases",
+        "url": "https://rarediseases.org/rare-diseases/costello-syndrome/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/rare-diseases/1011"
+      },
+      "omim": {
+        "id": "218040",
+        "url": "https://www.omim.org/entry/218040",
+        "api": "https://api.omim.org/api/entry?mimNumber=218040&format=json"
+      },
+      "orphanet": {
+        "id": "3071",
+        "url": "https://www.orpha.net/en/disease/detail/3071",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/3071"
+      },
+      "query": "Costello syndrome",
+      "searchUrl": "https://rarediseases.org/rare-diseases/?starts_with=C",
+      "geneVariantMechanism": {
+        "sourceApi": "https://api.omim.org/api/entry?mimNumber=218040&format=json",
+        "sourcePage": "https://www.omim.org/entry/218040",
+        "httpStatus": 200,
+        "genes": [
+          {
+            "symbol": "HRAS",
+            "aliases": [],
+            "mimNumber": "190020",
+            "inheritance": "Autosomal dominant",
+            "mappingKey": 3
+          }
+        ],
+        "variantMechanism": "In 12 of the 13 individuals with Costello syndrome, they found a heterozygous mutation in the HRAS gene ({190020.0001}, {190020.0003}-{190020.0005}).",
+        "allelicVariants": [],
+        "evidenceSection": "molecularGenetics",
+        "retrievedAt": "2026-10-04T01:24:48.299660+00:00",
+        "detail": null
+      }
+    },
+    {
+      "name": "Cardiofaciocutaneous Syndrome",
+      "nordReport": true,
+      "synonyms": [
+        "cardio-facial-cutaneous syndrome",
+        "CFC syndrome",
+        "RASopathy"
+      ],
+      "nord": {
+        "wordpressId": "891",
+        "postType": "rare-diseases",
+        "url": "https://rarediseases.org/rare-diseases/cardiofaciocutaneous-syndrome/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/rare-diseases/891"
+      },
+      "omim": {
+        "id": "115150",
+        "url": "https://www.omim.org/entry/115150",
+        "api": "https://api.omim.org/api/entry?mimNumber=115150&format=json"
+      },
+      "orphanet": {
+        "id": "1340",
+        "url": "https://www.orpha.net/en/disease/detail/1340",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/1340"
+      },
+      "query": "cardiofaciocutaneous syndrome",
+      "searchUrl": "https://rarediseases.org/rare-diseases/?starts_with=C",
+      "geneVariantMechanism": {
+        "sourceApi": "https://api.omim.org/api/entry?mimNumber=115150&format=json",
+        "sourcePage": "https://www.omim.org/entry/115150",
+        "httpStatus": 200,
+        "genes": [
+          {
+            "symbol": "BRAF",
+            "aliases": [],
+            "mimNumber": "164757",
+            "inheritance": "Autosomal dominant",
+            "mappingKey": 3
+          }
+        ],
+        "variantMechanism": "Eighteen of 23, or 78% of individuals, had mutations in BRAF; 11 distinct missense mutations clustered in 2 regions. In vitro functional expression studies of selected variants showed variable gain of function, but little transforming ability; all mutations had less activating potential than the common V600E mutation ({164757.0001}).",
+        "allelicVariants": [],
+        "evidenceSection": "molecularGenetics",
+        "retrievedAt": "2026-10-04T01:24:50.301891+00:00",
+        "detail": null
+      }
+    },
+    {
+      "name": "Neurofibromatosis 1",
+      "nordReport": true,
+      "synonyms": [
+        "NF1",
+        "Von Recklinghausen's disease",
+        "Von Recklinghausen's neurofibromatosis"
+      ],
+      "nord": {
+        "wordpressId": "1502",
+        "postType": "rare-diseases",
+        "url": "https://rarediseases.org/rare-diseases/neurofibromatosis-type-1-nf1/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/rare-diseases/1502"
+      },
+      "omim": {
+        "id": "162200",
+        "url": "https://www.omim.org/entry/162200",
+        "api": "https://api.omim.org/api/entry?mimNumber=162200&format=json"
+      },
+      "orphanet": {
+        "id": "636",
+        "url": "https://www.orpha.net/en/disease/detail/636",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/636"
+      },
+      "query": "neurofibromatosis type 1 (NF1)",
+      "searchUrl": "https://rarediseases.org/rare-diseases/?starts_with=N",
+      "geneVariantMechanism": {
+        "sourceApi": "https://api.omim.org/api/entry?mimNumber=162200&format=json",
+        "sourcePage": "https://www.omim.org/entry/162200",
+        "httpStatus": 200,
+        "genes": [
+          {
+            "symbol": "NF1",
+            "aliases": [],
+            "mimNumber": "613113",
+            "inheritance": "Autosomal dominant",
+            "mappingKey": 3
+          }
+        ],
+        "variantMechanism": "Submalignant tumors occurring in NF1 patients have been found to show loss of heterozygosity consistent with the 2-hit hypothesis of Knudson, with 1 allele constitutionally inactivated and the other somatically mutated.",
+        "allelicVariants": [],
+        "evidenceSection": "molecularGenetics",
+        "retrievedAt": "2026-10-04T01:24:52.309624+00:00",
+        "detail": null
+      }
+    }
+  ]
+}

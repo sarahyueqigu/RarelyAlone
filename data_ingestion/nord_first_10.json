@@ -1,0 +1,297 @@
+{
+  "source": "https://rarediseases.org/rare-diseases/?starts_with=Showing+all+diseases",
+  "retrievedAt": "2026-10-04T00:39:43.764Z",
+  "pages": [
+    1
+  ],
+  "pageSize": 50,
+  "count": 10,
+  "requestHeaders": {
+    "From": "sarah_gu@college.harvard.edu",
+    "X-Requester": "SarahG"
+  },
+  "notes": [
+    "Names, synonyms, and NORD links come from the listing dataset that the page renders 50 rows at a time.",
+    "OMIM, Orphanet, and GARD identifiers were read from each disease page.",
+    "omim.api requires an OMIM API key sent as the apiKey parameter.",
+    "orphanet.api is the ORPHAcode API for that disease code. A request without a token returns 401.",
+    "nord.api is the WordPress REST record for that disease page.",
+    "Subset of the first 10 diseases from nord_pages_1_2.json."
+  ],
+  "diseases": [
+    {
+      "name": "1p21.3 microdeletion syndrome",
+      "nordReport": false,
+      "synonyms": [
+        "Del(1)p(21.3)",
+        "monosomy 1p21.3"
+      ],
+      "listingPage": 1,
+      "nord": {
+        "wordpressId": "266752",
+        "postType": "mondo-disease",
+        "url": "https://rarediseases.org/mondo-disease/1p21-3-microdeletion-syndrome/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/mondo-disease/266752"
+      },
+      "omim": null,
+      "orphanet": {
+        "id": "293948",
+        "url": "https://www.orpha.net/en/disease/detail/293948",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/293948"
+      },
+      "gard": {
+        "id": "21173",
+        "url": "https://rarediseases.info.nih.gov/diseases/21173/x"
+      }
+    },
+    {
+      "name": "1p35.2 microdeletion syndrome",
+      "nordReport": false,
+      "synonyms": [
+        "Del(1)(p35.2)",
+        "deletion 1p35.2",
+        "monosomy 1p35.2"
+      ],
+      "listingPage": 1,
+      "nord": {
+        "wordpressId": "267412",
+        "postType": "mondo-disease",
+        "url": "https://rarediseases.org/mondo-disease/1p35-2-microdeletion-syndrome/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/mondo-disease/267412"
+      },
+      "omim": null,
+      "orphanet": {
+        "id": "456298",
+        "url": "https://www.orpha.net/en/disease/detail/456298",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/456298"
+      },
+      "gard": {
+        "id": "21898",
+        "url": "https://rarediseases.info.nih.gov/diseases/21898/x"
+      }
+    },
+    {
+      "name": "1q44 microdeletion syndrome",
+      "nordReport": false,
+      "synonyms": [
+        "Del(1)(q44)",
+        "chromosome 1q44 microdeletion syndrome",
+        "monosomy 1q44"
+      ],
+      "listingPage": 1,
+      "nord": {
+        "wordpressId": "266350",
+        "postType": "mondo-disease",
+        "url": "https://rarediseases.org/mondo-disease/1q44-microdeletion-syndrome/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/mondo-disease/266350"
+      },
+      "omim": null,
+      "orphanet": {
+        "id": "238769",
+        "url": "https://www.orpha.net/en/disease/detail/238769",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/238769"
+      },
+      "gard": {
+        "id": "10943",
+        "url": "https://rarediseases.info.nih.gov/diseases/10943/x"
+      }
+    },
+    {
+      "name": "2-aminoadipic 2-oxoadipic aciduria",
+      "nordReport": false,
+      "synonyms": [
+        "2-aminoadipic 2-oxoadipic aciduria",
+        "AMOXAD",
+        "Ketoadipicaciduria",
+        "alpha-aminoadipic aciduria",
+        "alpha-aminoadipic and alpha-ketoadipic aciduria"
+      ],
+      "listingPage": 1,
+      "nord": {
+        "wordpressId": "269640",
+        "postType": "mondo-disease",
+        "url": "https://rarediseases.org/mondo-disease/2-aminoadipic-2-oxoadipic-aciduria/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/mondo-disease/269640"
+      },
+      "omim": {
+        "id": "245130",
+        "url": "https://www.omim.org/entry/245130",
+        "api": "https://api.omim.org/api/entry?mimNumber=245130&format=json"
+      },
+      "orphanet": {
+        "id": "79154",
+        "url": "https://www.orpha.net/en/disease/detail/79154",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/79154"
+      },
+      "gard": {
+        "id": "16708",
+        "url": "https://rarediseases.info.nih.gov/diseases/16708/x"
+      }
+    },
+    {
+      "name": "2-hydroxyglutaric aciduria",
+      "nordReport": false,
+      "synonyms": [
+        "2-HGA",
+        "2-hydroxyglutaric acidemia",
+        "2-hydroxyglutaric aciduria"
+      ],
+      "listingPage": 1,
+      "nord": {
+        "wordpressId": "266068",
+        "postType": "mondo-disease",
+        "url": "https://rarediseases.org/mondo-disease/2-hydroxyglutaric-aciduria/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/mondo-disease/266068"
+      },
+      "omim": null,
+      "orphanet": {
+        "id": "19",
+        "url": "https://www.orpha.net/en/disease/detail/19",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/19"
+      },
+      "gard": {
+        "id": "10761",
+        "url": "https://rarediseases.info.nih.gov/diseases/10761/x"
+      }
+    },
+    {
+      "name": "2-methylbutyryl-CoA dehydrogenase deficiency",
+      "nordReport": false,
+      "synonyms": [
+        "2-methylbutyric aciduria",
+        "2-methylbutyryl Glycinuria",
+        "2-methylbutyryl-CoA dehydrogenase deficiency",
+        "2-methylbutyrylglycinuria",
+        "SBCAD deficiency",
+        "butyryl-CoA dehydrogenase deficiency",
+        "developmental delay due to 2-methylbutyryl-CoA dehydrogenase deficiency",
+        "short branched-chain acyl-CoA dehydrogenase deficiency",
+        "short/branched-chain acyl-Coa dehydrogenase deficiency",
+        "short/branched-chain acyl-coA dehydrogenase deficiency"
+      ],
+      "listingPage": 1,
+      "nord": {
+        "wordpressId": "263979",
+        "postType": "mondo-disease",
+        "url": "https://rarediseases.org/mondo-disease/2-methylbutyryl-coa-dehydrogenase-deficiency/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/mondo-disease/263979"
+      },
+      "omim": {
+        "id": "610006",
+        "url": "https://www.omim.org/entry/610006",
+        "api": "https://api.omim.org/api/entry?mimNumber=610006&format=json"
+      },
+      "orphanet": {
+        "id": "79157",
+        "url": "https://www.orpha.net/en/disease/detail/79157",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/79157"
+      },
+      "gard": {
+        "id": "10322",
+        "url": "https://rarediseases.info.nih.gov/diseases/10322/x"
+      }
+    },
+    {
+      "name": "2p13.2 microdeletion syndrome",
+      "nordReport": false,
+      "synonyms": [
+        "Del(2)(p13.2)"
+      ],
+      "listingPage": 1,
+      "nord": {
+        "wordpressId": "267163",
+        "postType": "mondo-disease",
+        "url": "https://rarediseases.org/mondo-disease/2p13-2-microdeletion-syndrome/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/mondo-disease/267163"
+      },
+      "omim": null,
+      "orphanet": {
+        "id": "363680",
+        "url": "https://www.orpha.net/en/disease/detail/363680",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/363680"
+      },
+      "gard": {
+        "id": "21557",
+        "url": "https://rarediseases.info.nih.gov/diseases/21557/x"
+      }
+    },
+    {
+      "name": "2p21 microdeletion syndrome",
+      "nordReport": false,
+      "synonyms": [
+        "2p21 deletion syndrome",
+        "2p21 microdeletion syndrome",
+        "Del(2)(p21)",
+        "monosomy 2p21"
+      ],
+      "listingPage": 1,
+      "nord": {
+        "wordpressId": "265890",
+        "postType": "mondo-disease",
+        "url": "https://rarediseases.org/mondo-disease/2p21-microdeletion-syndrome/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/mondo-disease/265890"
+      },
+      "omim": null,
+      "orphanet": {
+        "id": "163693",
+        "url": "https://www.orpha.net/en/disease/detail/163693",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/163693"
+      },
+      "gard": {
+        "id": "16999",
+        "url": "https://rarediseases.info.nih.gov/diseases/16999/x"
+      }
+    },
+    {
+      "name": "2p21 microdeletion syndrome without cystinuria",
+      "nordReport": false,
+      "synonyms": [
+        "Del(2)(p21) without cystinuria"
+      ],
+      "listingPage": 1,
+      "nord": {
+        "wordpressId": "267185",
+        "postType": "mondo-disease",
+        "url": "https://rarediseases.org/mondo-disease/2p21-microdeletion-syndrome-without-cystinuria/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/mondo-disease/267185"
+      },
+      "omim": null,
+      "orphanet": {
+        "id": "369881",
+        "url": "https://www.orpha.net/en/disease/detail/369881",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/369881"
+      },
+      "gard": {
+        "id": "21581",
+        "url": "https://rarediseases.info.nih.gov/diseases/21581/x"
+      }
+    },
+    {
+      "name": "2q23.1 microdeletion syndrome",
+      "nordReport": false,
+      "synonyms": [
+        "Del(2)(q23.1)",
+        "chromosome 2q23.1 microdeletion syndrome",
+        "monosomy 2q23.1",
+        "pseudo-Angelman syndrome"
+      ],
+      "listingPage": 1,
+      "nord": {
+        "wordpressId": "266291",
+        "postType": "mondo-disease",
+        "url": "https://rarediseases.org/mondo-disease/2q23-1-microdeletion-syndrome/",
+        "api": "https://rarediseases.org/wp-json/wp/v2/mondo-disease/266291"
+      },
+      "omim": null,
+      "orphanet": {
+        "id": "228402",
+        "url": "https://www.orpha.net/en/disease/detail/228402",
+        "api": "https://api.orphacode.org/EN/ClinicalEntity/orphacode/228402"
+      },
+      "gard": {
+        "id": "10998",
+        "url": "https://rarediseases.info.nih.gov/diseases/10998/x"
+      }
+    }
+  ]
+}
