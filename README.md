@@ -134,17 +134,3 @@ Run `npm test` and `npm run lint` before submitting changes.
 ## License and data use
 
 No repository-wide software license is specified in the current project files. Check with the maintainers before reusing project code. Data and linked third-party material may have their own licenses and terms; follow the source-specific terms, including Orphadata's licensing and transfer requirements.
-
-## Data provenance
-
-The dataset was assembled through a series of API calls to NORD, OMIM, ClinicalTrials.gov, HPO, PubMed/PMC, NIH RePORTER, and Orphanet. All web scraping, API retrieval, and consolidation of the resulting data into a structured JSON file were implemented in the Python script `pipeline.py`. The pipeline first web-scraped NORD to generate a sampled list of rare diseases. It then used OMIM to identify disease-associated genes and their mechanisms of action, and HPO to characterize each disease’s phenotype. PubMed/PMC provided relevant academic literature, while NIH RePORTER identified related research funding. Finally, ClinicalTrials.gov was used to locate ongoing clinical trials, and Orphanet provided information on active expert communities and patient foundations that individuals can use to find support and learn more about their condition.
-
-More information about the data sources and pipeline can be found in [`data_ingestion/README_pipeline.md`](data_ingestion/README_pipeline.md).
-
-To generate a dataset, run this command from the `data_ingestion` folder:
-
-```bash
-python3 pipeline.py --pages [#]-[#] --out filename.json
-```
-
-Replace `[#]-[#]` with the NORD page range to include.
