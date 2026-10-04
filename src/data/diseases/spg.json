@@ -1,0 +1,910 @@
+{
+  "id": "spg",
+  "name": "SPG11 hereditary spastic paraplegia",
+  "short": "SPG11",
+  "plain": "SPG11 variants disrupt spatacsin, a protein involved in cellular recycling. Long nerve fibers progressively malfunction, often causing leg stiffness, weakness and cognitive difficulties.",
+  "scope": "Biallelic SPG11-related disease. Mechanistic and rescue findings often come from cells or animals.",
+  "edges": [
+    {
+      "id": "spg-e001",
+      "disease": "spg",
+      "source": "spg",
+      "target": "SPG11",
+      "relationship": "caused by biallelic pathogenic variants in",
+      "sourceIds": [
+        "S05"
+      ],
+      "summary": "Disease association requires pathogenic variants on both alleles.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e002",
+      "disease": "spg",
+      "source": "SPG11",
+      "target": "p-spg",
+      "relationship": "encodes",
+      "sourceIds": [
+        "S05"
+      ],
+      "summary": "The gene encodes this protein or enzyme subunit.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e003",
+      "disease": "spg",
+      "source": "p-spg",
+      "target": "f-spg",
+      "relationship": "loss causes",
+      "sourceIds": [
+        "S05"
+      ],
+      "summary": "Pathogenic loss of protein function produces the biochemical defect.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e004",
+      "disease": "spg",
+      "source": "f-spg",
+      "target": "lys-recycling",
+      "relationship": "impairs",
+      "sourceIds": [
+        "S07"
+      ],
+      "summary": "The functional deficit disrupts this cellular process.",
+      "direct": true,
+      "evidenceType": "human-cell and animal experiment",
+      "confidence": 0.9,
+      "context": "Preclinical lysosomal recycling studies",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e005",
+      "disease": "spg",
+      "source": "lys-recycling",
+      "target": "chol-export",
+      "relationship": "involves",
+      "sourceIds": [
+        "S06"
+      ],
+      "summary": "Loss of spatacsin impairs lysosomal tubulation and cholesterol clearance.",
+      "direct": true,
+      "evidenceType": "cell and mouse-neuron experiment",
+      "confidence": 0.88,
+      "context": "Spg11-deficient fibroblasts and neuronal models",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e006",
+      "disease": "spg",
+      "source": "lys-recycling",
+      "target": "lipid-clearance",
+      "relationship": "involves",
+      "sourceIds": [
+        "S07"
+      ],
+      "summary": "Defective recycling limits ganglioside clearance.",
+      "direct": true,
+      "evidenceType": "human-cell and animal experiment",
+      "confidence": 0.9,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e007",
+      "disease": "spg",
+      "source": "lys-recycling",
+      "target": "alr",
+      "relationship": "involves",
+      "sourceIds": [
+        "S08"
+      ],
+      "summary": "Spatacsin participates in autophagic lysosome reformation.",
+      "direct": true,
+      "evidenceType": "cell experiment",
+      "confidence": 0.9,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e008",
+      "disease": "spg",
+      "source": "alr",
+      "target": "autophagy-defect",
+      "relationship": "involves",
+      "sourceIds": [
+        "S08"
+      ],
+      "summary": "Defective reformation reduces lysosome availability and impairs clearance.",
+      "direct": true,
+      "evidenceType": "cell experiment",
+      "confidence": 0.87,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e009",
+      "disease": "spg",
+      "source": "alr",
+      "target": "lys-depletion",
+      "relationship": "involves",
+      "sourceIds": [
+        "S08"
+      ],
+      "summary": "Loss of reformation reduces the free lysosome pool.",
+      "direct": true,
+      "evidenceType": "cell experiment",
+      "confidence": 0.88,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e010",
+      "disease": "spg",
+      "source": "lipid-clearance",
+      "target": "lys-homeostasis",
+      "relationship": "involves",
+      "sourceIds": [
+        "S07"
+      ],
+      "summary": "Abnormal lysosomal membrane recycling causes lipid retention.",
+      "direct": true,
+      "evidenceType": "human-cell and animal experiment",
+      "confidence": 0.9,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e011",
+      "disease": "spg",
+      "source": "lipid-clearance",
+      "target": "gsl-metabolism",
+      "relationship": "involves",
+      "sourceIds": [
+        "S07"
+      ],
+      "summary": "Ganglioside accumulation links recycling to glycosphingolipid handling.",
+      "direct": true,
+      "evidenceType": "human-cell and animal experiment",
+      "confidence": 0.9,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e012",
+      "disease": "spg",
+      "source": "lipid-clearance",
+      "target": "gsl",
+      "relationship": "affects",
+      "sourceIds": [
+        "S07"
+      ],
+      "summary": "Gangliosides accumulate in SPG11 models.",
+      "direct": true,
+      "evidenceType": "human-cell and animal experiment",
+      "confidence": 0.9,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e013",
+      "disease": "spg",
+      "source": "lipid-clearance",
+      "target": "lipid-storage",
+      "relationship": "involves",
+      "sourceIds": [
+        "S07"
+      ],
+      "summary": "Lipid storage accompanies impaired lysosomal recycling.",
+      "direct": true,
+      "evidenceType": "human-cell and animal experiment",
+      "confidence": 0.9,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e014",
+      "disease": "spg",
+      "source": "chol-export",
+      "target": "chol-homeostasis",
+      "relationship": "involves",
+      "sourceIds": [
+        "S06"
+      ],
+      "summary": "Cholesterol redistribution changes membrane homeostasis.",
+      "direct": true,
+      "evidenceType": "cell experiment",
+      "confidence": 0.88,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e015",
+      "disease": "spg",
+      "source": "chol-export",
+      "target": "cholesterol",
+      "relationship": "affects",
+      "sourceIds": [
+        "S06"
+      ],
+      "summary": "Cholesterol is retained in lysosomal compartments.",
+      "direct": true,
+      "evidenceType": "cell experiment",
+      "confidence": 0.88,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e016",
+      "disease": "spg",
+      "source": "cholesterol",
+      "target": "chol-storage",
+      "relationship": "involves",
+      "sourceIds": [
+        "S09"
+      ],
+      "summary": "SPG11-deficient human neurons show lysosomal cholesterol accumulation.",
+      "direct": true,
+      "evidenceType": "human stem-cell experiment",
+      "confidence": 0.91,
+      "context": "Knockdown and disease-variant knock-in neurons",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e017",
+      "disease": "spg",
+      "source": "chol-export",
+      "target": "calcium",
+      "relationship": "involves",
+      "sourceIds": [
+        "S06"
+      ],
+      "summary": "Altered membrane cholesterol affects store-operated calcium entry.",
+      "direct": true,
+      "evidenceType": "cell experiment",
+      "confidence": 0.82,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e018",
+      "disease": "spg",
+      "source": "spg",
+      "target": "axonal-swelling",
+      "relationship": "involves",
+      "sourceIds": [
+        "S09"
+      ],
+      "summary": "SPG11-deficient neurons show swellings and impaired axonal transport.",
+      "direct": true,
+      "evidenceType": "human stem-cell experiment",
+      "confidence": 0.91,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e019",
+      "disease": "spg",
+      "source": "spg",
+      "target": "neuronal-loss",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S05"
+      ],
+      "summary": "Broad neural consequence; vulnerable populations differ.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e020",
+      "disease": "spg",
+      "source": "spg",
+      "target": "spasticity",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S05"
+      ],
+      "summary": "Increased muscle tone and progressive mobility difficulty.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e021",
+      "disease": "spg",
+      "source": "spg",
+      "target": "thin-cc",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S05"
+      ],
+      "summary": "Characteristic neuroimaging feature in SPG11.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e022",
+      "disease": "spg",
+      "source": "spg",
+      "target": "cognitive",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S05"
+      ],
+      "summary": "Variable learning or cognitive difficulties.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e023",
+      "disease": "spg",
+      "source": "spg",
+      "target": "filipin",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S09"
+      ],
+      "summary": "Human cortical-neuron assays quantify cholesterol localization and axonal defects.",
+      "direct": true,
+      "evidenceType": "human stem-cell experiment",
+      "confidence": 0.91,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e024",
+      "disease": "spg",
+      "source": "spg",
+      "target": "axon-assay",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S09"
+      ],
+      "summary": "Human cortical-neuron assays quantify cholesterol localization and axonal defects.",
+      "direct": true,
+      "evidenceType": "human stem-cell experiment",
+      "confidence": 0.91,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e025",
+      "disease": "spg",
+      "source": "spg",
+      "target": "neurons-model",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S09"
+      ],
+      "summary": "Human cortical-neuron assays quantify cholesterol localization and axonal defects.",
+      "direct": true,
+      "evidenceType": "human stem-cell experiment",
+      "confidence": 0.91,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e026",
+      "disease": "spg",
+      "source": "spg",
+      "target": "lxr",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S09"
+      ],
+      "summary": "LXR agonists restored cholesterol distribution and reduced axonal abnormalities in SPG11 neurons.",
+      "direct": true,
+      "evidenceType": "human stem-cell rescue",
+      "confidence": 0.9,
+      "context": "Preclinical; no demonstrated clinical benefit",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e027",
+      "disease": "spg",
+      "source": "spg",
+      "target": "fibroblasts",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S07"
+      ],
+      "summary": "Independent SPG11 models connect lysosomal ganglioside storage to neurodegeneration.",
+      "direct": true,
+      "evidenceType": "experimental model",
+      "confidence": 0.89,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e028",
+      "disease": "spg",
+      "source": "spg",
+      "target": "mouse",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S07"
+      ],
+      "summary": "Independent SPG11 models connect lysosomal ganglioside storage to neurodegeneration.",
+      "direct": true,
+      "evidenceType": "experimental model",
+      "confidence": 0.89,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e029",
+      "disease": "spg",
+      "source": "spg",
+      "target": "zebrafish",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S07"
+      ],
+      "summary": "Independent SPG11 models connect lysosomal ganglioside storage to neurodegeneration.",
+      "direct": true,
+      "evidenceType": "experimental model",
+      "confidence": 0.89,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e030",
+      "disease": "spg",
+      "source": "spg",
+      "target": "flux-assay",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S08"
+      ],
+      "summary": "Autophagy and lysosome-reformation assays identify the affected recycling step.",
+      "direct": true,
+      "evidenceType": "cell experiment",
+      "confidence": 0.88,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e031",
+      "disease": "spg",
+      "source": "spg",
+      "target": "miglustat",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S10"
+      ],
+      "summary": "A 12-week open-label study found little neuromotor impact and no significant plasma lipid-profile change.",
+      "direct": true,
+      "evidenceType": "human intervention; negative efficacy signal",
+      "confidence": 0.97,
+      "context": "Safety-primary, uncontrolled study; does not exclude all longer-term effects",
+      "contradictions": [
+        {
+          "sourceId": "S07",
+          "summary": "Preclinical ganglioside reduction and zebrafish motor rescue did not translate into convincing human benefit."
+        }
+      ],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e032",
+      "disease": "spg",
+      "source": "spg",
+      "target": "trial-spg",
+      "relationship": "studied in",
+      "sourceIds": [
+        "S15"
+      ],
+      "summary": "TreatSPG11 phase II study was completed; registry enrollment 10.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e033",
+      "disease": "spg",
+      "source": "spg",
+      "target": "lipidomics",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S10"
+      ],
+      "summary": "Plasma sphingolipid and ganglioside profiles were measured without significant treatment change.",
+      "direct": true,
+      "evidenceType": "human biomarker study",
+      "confidence": 0.97,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e034",
+      "disease": "spg",
+      "source": "spg",
+      "target": "venglustat",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S11"
+      ],
+      "summary": "Substrate reduction delayed mouse symptoms and NfL elevation; human SPG11 neurons were also studied.",
+      "direct": true,
+      "evidenceType": "mouse and human-cell experiment",
+      "confidence": 0.89,
+      "context": "Preclinical, not SPG11 patient efficacy",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e035",
+      "disease": "spg",
+      "source": "spg",
+      "target": "nfl",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S11"
+      ],
+      "summary": "Substrate reduction delayed mouse symptoms and NfL elevation; human SPG11 neurons were also studied.",
+      "direct": true,
+      "evidenceType": "mouse and human-cell experiment",
+      "confidence": 0.89,
+      "context": "Preclinical, not SPG11 patient efficacy",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e036",
+      "disease": "spg",
+      "source": "spg",
+      "target": "smers",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S20"
+      ],
+      "summary": "Naringenin and SMER28 improved lysosomal reformation and locomotion in cell/fly models.",
+      "direct": true,
+      "evidenceType": "patient-cell and fly experiment",
+      "confidence": 0.84,
+      "context": "Preclinical; no SPG11 clinical benefit demonstrated",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e037",
+      "disease": "spg",
+      "source": "spg",
+      "target": "spf",
+      "relationship": "supported by",
+      "sourceIds": [
+        "S28"
+      ],
+      "summary": "Disease-specific or allied patient support and research organization.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e038",
+      "disease": "spg",
+      "source": "spg",
+      "target": "S05",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S05"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Curated clinical reference",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e039",
+      "disease": "spg",
+      "source": "spg",
+      "target": "S06",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S06"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Primary experimental study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e040",
+      "disease": "spg",
+      "source": "spg",
+      "target": "S07",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S07"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Primary experimental study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e041",
+      "disease": "spg",
+      "source": "spg",
+      "target": "S08",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S08"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Primary experimental study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e042",
+      "disease": "spg",
+      "source": "spg",
+      "target": "S09",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S09"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Human-cell experimental study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e043",
+      "disease": "spg",
+      "source": "spg",
+      "target": "S10",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S10"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Human intervention study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e044",
+      "disease": "spg",
+      "source": "spg",
+      "target": "S11",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S11"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Primary experimental study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e045",
+      "disease": "spg",
+      "source": "spg",
+      "target": "S15",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S15"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "ClinicalTrials.gov registry",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e046",
+      "disease": "spg",
+      "source": "spg",
+      "target": "S20",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S20"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Primary experimental study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "spg-e047",
+      "disease": "spg",
+      "source": "spg",
+      "target": "S28",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S28"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Patient organization",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    }
+  ],
+  "nodeIds": [
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S15",
+    "S20",
+    "S28",
+    "SPG11",
+    "alr",
+    "autophagy-defect",
+    "axon-assay",
+    "axonal-swelling",
+    "calcium",
+    "chol-export",
+    "chol-homeostasis",
+    "chol-storage",
+    "cholesterol",
+    "cognitive",
+    "f-spg",
+    "fibroblasts",
+    "filipin",
+    "flux-assay",
+    "gsl",
+    "gsl-metabolism",
+    "lipid-clearance",
+    "lipid-storage",
+    "lipidomics",
+    "lxr",
+    "lys-depletion",
+    "lys-homeostasis",
+    "lys-recycling",
+    "miglustat",
+    "mouse",
+    "neuronal-loss",
+    "neurons-model",
+    "nfl",
+    "p-spg",
+    "smers",
+    "spasticity",
+    "spf",
+    "spg",
+    "thin-cc",
+    "trial-spg",
+    "venglustat",
+    "zebrafish"
+  ]
+}

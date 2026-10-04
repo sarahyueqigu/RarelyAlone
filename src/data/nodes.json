@@ -1,0 +1,882 @@
+[
+  {
+    "id": "gm2-breakdown",
+    "label": "Impaired GM2 degradation",
+    "type": "mechanism",
+    "dimension": "mechanism",
+    "description": "Reduced lysosomal degradation of GM2 ganglioside.",
+    "external": null
+  },
+  {
+    "id": "lipid-clearance",
+    "label": "Impaired lysosomal lipid clearance",
+    "type": "mechanism",
+    "dimension": "mechanism",
+    "description": "Umbrella process; enzymatic degradation and lipid export remain distinct.",
+    "external": null
+  },
+  {
+    "id": "chol-export",
+    "label": "Impaired cholesterol export",
+    "type": "mechanism",
+    "dimension": "mechanism",
+    "description": "Reduced cholesterol clearance from late endosomes / lysosomes.",
+    "external": null
+  },
+  {
+    "id": "lys-recycling",
+    "label": "Impaired lysosomal recycling",
+    "type": "mechanism",
+    "dimension": "mechanism",
+    "description": "Defective lysosomal tubulation and membrane recycling.",
+    "external": null
+  },
+  {
+    "id": "autophagy-defect",
+    "label": "Altered autophagy / clearance",
+    "type": "mechanism",
+    "dimension": "mechanism",
+    "description": "Broad process. Direction and affected stage depend on cell type and model.",
+    "external": null
+  },
+  {
+    "id": "gcase-hydrolysis",
+    "label": "Impaired glucosylceramide hydrolysis",
+    "type": "mechanism",
+    "dimension": "mechanism",
+    "description": "Deficient lysosomal glucocerebrosidase activity.",
+    "external": null
+  },
+  {
+    "id": "calcium",
+    "label": "Disturbed calcium homeostasis",
+    "type": "mechanism",
+    "dimension": "mechanism",
+    "description": "Cellular calcium regulation changes; compartment-specific mechanisms differ.",
+    "external": null
+  },
+  {
+    "id": "gm2-catabolism",
+    "label": "GM2 catabolism",
+    "type": "pathway",
+    "dimension": "pathway",
+    "description": "Lysosomal ganglioside degradation pathway.",
+    "external": null
+  },
+  {
+    "id": "gsl-metabolism",
+    "label": "Glycosphingolipid metabolism",
+    "type": "pathway",
+    "dimension": "pathway",
+    "description": "Broad lipid pathway including distinct species and enzymes.",
+    "external": null
+  },
+  {
+    "id": "lys-homeostasis",
+    "label": "Lysosomal homeostasis",
+    "type": "pathway",
+    "dimension": "pathway",
+    "description": "Maintenance of lysosomal lipid handling and degradative function.",
+    "external": null
+  },
+  {
+    "id": "chol-homeostasis",
+    "label": "Cholesterol homeostasis",
+    "type": "pathway",
+    "dimension": "pathway",
+    "description": "Intracellular distribution and handling of cholesterol.",
+    "external": null
+  },
+  {
+    "id": "alr",
+    "label": "Autophagic lysosome reformation",
+    "type": "pathway",
+    "dimension": "pathway",
+    "description": "Lysosome regeneration after autophagy.",
+    "external": null
+  },
+  {
+    "id": "mitophagy",
+    "label": "Mitochondrial quality control",
+    "type": "pathway",
+    "dimension": "pathway",
+    "description": "Removal and maintenance of mitochondria.",
+    "external": null
+  },
+  {
+    "id": "lipid-storage",
+    "label": "Lysosomal lipid accumulation",
+    "type": "cellular phenotype",
+    "dimension": "phenotype",
+    "description": "Cellular storage phenotype; the accumulated molecules differ.",
+    "external": null
+  },
+  {
+    "id": "neuronal-loss",
+    "label": "Neuronal dysfunction / loss",
+    "type": "cellular phenotype",
+    "dimension": "phenotype",
+    "description": "Broad neural consequence; vulnerable populations differ.",
+    "external": null
+  },
+  {
+    "id": "chol-storage",
+    "label": "Lysosomal cholesterol accumulation",
+    "type": "cellular phenotype",
+    "dimension": "phenotype",
+    "description": "Unesterified cholesterol retained in lysosomal compartments.",
+    "external": null
+  },
+  {
+    "id": "axonal-swelling",
+    "label": "Axonal swellings / transport defects",
+    "type": "cellular phenotype",
+    "dimension": "phenotype",
+    "description": "Axonal morphology and trafficking abnormalities.",
+    "external": null
+  },
+  {
+    "id": "lys-depletion",
+    "label": "Depletion of free lysosomes",
+    "type": "cellular phenotype",
+    "dimension": "phenotype",
+    "description": "Reduced pool of available lysosomes.",
+    "external": null
+  },
+  {
+    "id": "mito-dysfunction",
+    "label": "Mitochondrial dysfunction",
+    "type": "cellular phenotype",
+    "dimension": "phenotype",
+    "description": "Abnormal mitochondrial energetics and quality control.",
+    "external": null
+  },
+  {
+    "id": "regression",
+    "label": "Developmental regression",
+    "type": "clinical phenotype",
+    "dimension": "phenotype",
+    "description": "Especially early-onset GM2 disease; not universal across ages.",
+    "external": null
+  },
+  {
+    "id": "seizures",
+    "label": "Seizures",
+    "type": "clinical phenotype",
+    "dimension": "phenotype",
+    "description": "Variable across age, disease and subtype.",
+    "external": null
+  },
+  {
+    "id": "ataxia",
+    "label": "Ataxia",
+    "type": "clinical phenotype",
+    "dimension": "phenotype",
+    "description": "Impaired coordination.",
+    "external": null
+  },
+  {
+    "id": "cognitive",
+    "label": "Cognitive impairment",
+    "type": "clinical phenotype",
+    "dimension": "phenotype",
+    "description": "Variable learning or cognitive difficulties.",
+    "external": null
+  },
+  {
+    "id": "hsm",
+    "label": "Hepatosplenomegaly",
+    "type": "clinical phenotype",
+    "dimension": "phenotype",
+    "description": "Enlargement of liver and spleen.",
+    "external": null
+  },
+  {
+    "id": "gaze",
+    "label": "Supranuclear gaze abnormalities",
+    "type": "clinical phenotype",
+    "dimension": "phenotype",
+    "description": "NPC and neuronopathic Gaucher involve different gaze patterns.",
+    "external": null
+  },
+  {
+    "id": "spasticity",
+    "label": "Lower-limb spasticity",
+    "type": "clinical phenotype",
+    "dimension": "phenotype",
+    "description": "Increased muscle tone and progressive mobility difficulty.",
+    "external": null
+  },
+  {
+    "id": "thin-cc",
+    "label": "Thin corpus callosum",
+    "type": "clinical phenotype",
+    "dimension": "phenotype",
+    "description": "Characteristic neuroimaging feature in SPG11.",
+    "external": null
+  },
+  {
+    "id": "bone",
+    "label": "Bone disease / cytopenias",
+    "type": "clinical phenotype",
+    "dimension": "phenotype",
+    "description": "Prominent systemic manifestations of Gaucher disease.",
+    "external": null
+  },
+  {
+    "id": "gm2",
+    "label": "GM2 ganglioside",
+    "type": "metabolite/substrate",
+    "dimension": "molecular",
+    "description": "Shared primary storage substrate in Tay–Sachs and Sandhoff.",
+    "external": null
+  },
+  {
+    "id": "gsl",
+    "label": "Glycosphingolipids",
+    "type": "metabolite/substrate",
+    "dimension": "molecular",
+    "description": "Molecular class; overlap does not imply identical lipid species.",
+    "external": null
+  },
+  {
+    "id": "cholesterol",
+    "label": "Unesterified cholesterol",
+    "type": "metabolite/substrate",
+    "dimension": "molecular",
+    "description": "A central NPC storage lipid; compartmental changes reported in SPG11 models.",
+    "external": null
+  },
+  {
+    "id": "glc-cer",
+    "label": "Glucosylceramide",
+    "type": "metabolite/substrate",
+    "dimension": "molecular",
+    "description": "Major Gaucher substrate; also part of NPC secondary lipid storage.",
+    "external": null
+  },
+  {
+    "id": "lyso-gb1",
+    "label": "Glucosylsphingosine",
+    "type": "metabolite/substrate",
+    "dimension": "molecular",
+    "description": "Gaucher-associated lipid and biomarker.",
+    "external": null
+  },
+  {
+    "id": "ga2",
+    "label": "GA2 / neutral glycolipids",
+    "type": "metabolite/substrate",
+    "dimension": "molecular",
+    "description": "Broader substrate consequences of HEXB deficiency.",
+    "external": null
+  },
+  {
+    "id": "enzyme-assay",
+    "label": "Hexosaminidase activity assay",
+    "type": "research asset",
+    "dimension": "assets",
+    "description": "Measures the affected enzyme system; isoenzyme interpretation distinguishes the diseases.",
+    "external": null
+  },
+  {
+    "id": "filipin",
+    "label": "Filipin / LAMP1 imaging",
+    "type": "research asset",
+    "dimension": "assets",
+    "description": "Localizes unesterified cholesterol relative to lysosomes; not itself a measure of flux.",
+    "external": null
+  },
+  {
+    "id": "lipidomics",
+    "label": "Lipid profiling",
+    "type": "research asset",
+    "dimension": "assets",
+    "description": "Measure disease-relevant lipid species rather than assuming one generic storage signal.",
+    "external": null
+  },
+  {
+    "id": "flux-assay",
+    "label": "Autophagy flux assay",
+    "type": "research asset",
+    "dimension": "assets",
+    "description": "Dynamic measurements are needed; static LC3 abundance can be misleading.",
+    "external": null
+  },
+  {
+    "id": "axon-assay",
+    "label": "Axonal transport assay",
+    "type": "research asset",
+    "dimension": "assets",
+    "description": "Live trafficking, axon length and swelling measurements.",
+    "external": null
+  },
+  {
+    "id": "nfl",
+    "label": "Neurofilament light chain",
+    "type": "research asset",
+    "dimension": "assets",
+    "description": "Injury biomarker; not specific to a causal mechanism.",
+    "external": null
+  },
+  {
+    "id": "miglustat",
+    "label": "Miglustat",
+    "type": "treatment/intervention",
+    "dimension": "assets",
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "hpbcd",
+    "label": "HPβCD",
+    "type": "treatment/intervention",
+    "dimension": "assets",
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "lxr",
+    "label": "LXR agonists: GW3965 / RGX104",
+    "type": "treatment/intervention",
+    "dimension": "assets",
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "venglustat",
+    "label": "Venglustat",
+    "type": "treatment/intervention",
+    "dimension": "assets",
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "nal",
+    "label": "N-acetyl-L-leucine",
+    "type": "treatment/intervention",
+    "dimension": "assets",
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "arimo",
+    "label": "Arimoclomol + miglustat",
+    "type": "treatment/intervention",
+    "dimension": "assets",
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "ert",
+    "label": "Enzyme replacement therapy",
+    "type": "treatment/intervention",
+    "dimension": "assets",
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "smers",
+    "label": "Naringenin / SMER28",
+    "type": "treatment/intervention",
+    "dimension": "assets",
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "fibroblasts",
+    "label": "Patient-derived fibroblasts",
+    "type": "experimental model",
+    "dimension": "assets",
+    "description": "Model class is shared; genotypes and protocols are disease specific.",
+    "external": null
+  },
+  {
+    "id": "neurons-model",
+    "label": "Human stem-cell-derived neurons",
+    "type": "experimental model",
+    "dimension": "assets",
+    "description": "Model class is shared; genotypes and protocols are disease specific.",
+    "external": null
+  },
+  {
+    "id": "mouse",
+    "label": "Genetic mouse models",
+    "type": "experimental model",
+    "dimension": "assets",
+    "description": "Model class is shared; genotypes and protocols are disease specific.",
+    "external": null
+  },
+  {
+    "id": "zebrafish",
+    "label": "Zebrafish knockdown models",
+    "type": "experimental model",
+    "dimension": "assets",
+    "description": "Model class is shared; genotypes and protocols are disease specific.",
+    "external": null
+  },
+  {
+    "id": "S01",
+    "label": "HEXA Disorders · GeneReviews",
+    "type": "publication",
+    "dimension": null,
+    "description": "Curated clinical reference",
+    "external": "https://www.ncbi.nlm.nih.gov/books/NBK1218/"
+  },
+  {
+    "id": "S02",
+    "label": "Sandhoff Disease · GeneReviews",
+    "type": "publication",
+    "dimension": null,
+    "description": "Curated clinical reference",
+    "external": "https://www.ncbi.nlm.nih.gov/books/NBK579484/"
+  },
+  {
+    "id": "S03",
+    "label": "Niemann-Pick Disease Type C · GeneReviews",
+    "type": "publication",
+    "dimension": null,
+    "description": "Curated clinical reference",
+    "external": "https://www.ncbi.nlm.nih.gov/books/NBK1296/"
+  },
+  {
+    "id": "S04",
+    "label": "Gaucher Disease · GeneReviews",
+    "type": "publication",
+    "dimension": null,
+    "description": "Curated clinical reference",
+    "external": "https://www.ncbi.nlm.nih.gov/books/NBK1269/"
+  },
+  {
+    "id": "S05",
+    "label": "Spastic Paraplegia 11 · GeneReviews",
+    "type": "publication",
+    "dimension": null,
+    "description": "Curated clinical reference",
+    "external": "https://www.ncbi.nlm.nih.gov/books/NBK1210/"
+  },
+  {
+    "id": "S06",
+    "label": "Boutry et al. · Loss of spatacsin impairs cholesterol trafficking and calcium homeostasis",
+    "type": "publication",
+    "dimension": null,
+    "description": "Primary experimental study",
+    "external": "https://doi.org/10.1038/s42003-019-0615-z"
+  },
+  {
+    "id": "S07",
+    "label": "Boutry et al. · Inhibition of lysosome membrane recycling causes accumulation of gangliosides",
+    "type": "publication",
+    "dimension": null,
+    "description": "Primary experimental study",
+    "external": "https://pubmed.ncbi.nlm.nih.gov/29949766/"
+  },
+  {
+    "id": "S08",
+    "label": "Chang et al. · Spastizin and spatacsin mediate autophagic lysosome reformation",
+    "type": "publication",
+    "dimension": null,
+    "description": "Primary experimental study",
+    "external": "https://www.jci.org/articles/view/77598"
+  },
+  {
+    "id": "S09",
+    "label": "Chai et al. · LXR agonists rescue axonal degeneration in SPG11-deficient neurons",
+    "type": "publication",
+    "dimension": null,
+    "description": "Human-cell experimental study",
+    "external": "https://pubmed.ncbi.nlm.nih.gov/37709208/"
+  },
+  {
+    "id": "S10",
+    "label": "Mero et al. · Miglustat does not impact clinical progression in SPG11",
+    "type": "publication",
+    "dimension": null,
+    "description": "Human intervention study",
+    "external": "https://pubmed.ncbi.nlm.nih.gov/41428099/"
+  },
+  {
+    "id": "S11",
+    "label": "Fortier et al. · Decreasing ganglioside synthesis delays symptom onset in Spg11 knockout mice",
+    "type": "publication",
+    "dimension": null,
+    "description": "Primary experimental study",
+    "external": "https://pubmed.ncbi.nlm.nih.gov/38876323/"
+  },
+  {
+    "id": "S12",
+    "label": "Pacheco et al. · Autophagy in NPC is Beclin-1 dependent and responsive to lipid trafficking defects",
+    "type": "publication",
+    "dimension": null,
+    "description": "Primary experimental study",
+    "external": "https://pubmed.ncbi.nlm.nih.gov/17468177/"
+  },
+  {
+    "id": "S13",
+    "label": "Osellame et al. · Mitochondria and quality-control defects in a Gaucher mouse model",
+    "type": "publication",
+    "dimension": null,
+    "description": "Primary experimental study",
+    "external": "https://pubmed.ncbi.nlm.nih.gov/23707074/"
+  },
+  {
+    "id": "S14",
+    "label": "Ory et al. · Intrathecal HPβCD in NPC1: non-randomized phase 1–2 trial",
+    "type": "publication",
+    "dimension": null,
+    "description": "Human intervention study",
+    "external": "https://pubmed.ncbi.nlm.nih.gov/28803710/"
+  },
+  {
+    "id": "S15",
+    "label": "TreatSPG11 · NCT04768166",
+    "type": "publication",
+    "dimension": null,
+    "description": "ClinicalTrials.gov registry",
+    "external": "https://clinicaltrials.gov/study/NCT04768166"
+  },
+  {
+    "id": "S16",
+    "label": "HPβCD in NPC1 · NCT01747135",
+    "type": "publication",
+    "dimension": null,
+    "description": "ClinicalTrials.gov registry",
+    "external": "https://clinicaltrials.gov/study/NCT01747135"
+  },
+  {
+    "id": "S17",
+    "label": "N-acetyl-L-leucine in GM2 gangliosidosis · NCT03759665",
+    "type": "publication",
+    "dimension": null,
+    "description": "ClinicalTrials.gov registry",
+    "external": "https://clinicaltrials.gov/study/NCT03759665"
+  },
+  {
+    "id": "S18",
+    "label": "FDA · Miplyffa approval",
+    "type": "publication",
+    "dimension": null,
+    "description": "Regulatory source",
+    "external": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-niemann-pick-disease-type-c"
+  },
+  {
+    "id": "S19",
+    "label": "FDA · Aqneursa approval",
+    "type": "publication",
+    "dimension": null,
+    "description": "Regulatory source",
+    "external": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-drug-treat-niemann-pick-disease-type-c"
+  },
+  {
+    "id": "S20",
+    "label": "Vantaggiato et al. · Naringenin and SMER28 rescue lysosomal reformation in SPG11/SPG15 models",
+    "type": "publication",
+    "dimension": null,
+    "description": "Primary experimental study",
+    "external": "https://pubmed.ncbi.nlm.nih.gov/40550407/"
+  },
+  {
+    "id": "S21",
+    "label": "Vanier · Niemann-Pick disease type C",
+    "type": "publication",
+    "dimension": null,
+    "description": "Curated disease review",
+    "external": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2902432/"
+  },
+  {
+    "id": "S22",
+    "label": "VTS-270 in NPC1 · NCT02534844",
+    "type": "publication",
+    "dimension": null,
+    "description": "ClinicalTrials.gov registry",
+    "external": "https://clinicaltrials.gov/study/NCT02534844"
+  },
+  {
+    "id": "S23",
+    "label": "MedlinePlus Genetics · GBA1",
+    "type": "publication",
+    "dimension": null,
+    "description": "Curated gene reference",
+    "external": "https://medlineplus.gov/genetics/gene/gba1/"
+  },
+  {
+    "id": "S24",
+    "label": "N-acetyl-L-leucine in children and adults with GM2 gangliosidoses",
+    "type": "publication",
+    "dimension": null,
+    "description": "Human intervention study",
+    "external": "https://pubmed.ncbi.nlm.nih.gov/36456200/"
+  },
+  {
+    "id": "S25",
+    "label": "National Tay-Sachs & Allied Diseases Association",
+    "type": "publication",
+    "dimension": null,
+    "description": "Patient organization",
+    "external": "https://ntsad.org/"
+  },
+  {
+    "id": "S26",
+    "label": "National Niemann-Pick Disease Foundation",
+    "type": "publication",
+    "dimension": null,
+    "description": "Patient organization",
+    "external": "https://nnpdf.org/"
+  },
+  {
+    "id": "S27",
+    "label": "National Gaucher Foundation",
+    "type": "publication",
+    "dimension": null,
+    "description": "Patient organization",
+    "external": "https://www.gaucherdisease.org/"
+  },
+  {
+    "id": "S28",
+    "label": "Spastic Paraplegia Foundation",
+    "type": "publication",
+    "dimension": null,
+    "description": "Patient organization",
+    "external": "https://sp-foundation.org/"
+  },
+  {
+    "id": "trial-spg",
+    "label": "TreatSPG11 · NCT04768166",
+    "type": "clinical study",
+    "dimension": null,
+    "description": "Completed; 10 enrolled; last registry update 11 April 2022. Registry status is distinct from the 2025 results publication.",
+    "external": "https://clinicaltrials.gov/study/NCT04768166"
+  },
+  {
+    "id": "trial-npc",
+    "label": "HPβCD in NPC1 · NCT01747135",
+    "type": "clinical study",
+    "dimension": null,
+    "description": "Completed; 14 enrolled; last registry update 23 July 2021.",
+    "external": "https://clinicaltrials.gov/study/NCT01747135"
+  },
+  {
+    "id": "trial-gm2",
+    "label": "N-acetyl-L-leucine in GM2 gangliosidosis · NCT03759665",
+    "type": "clinical study",
+    "dimension": null,
+    "description": "Completed; 30 enrolled; last registry update 12 March 2024.",
+    "external": "https://clinicaltrials.gov/study/NCT03759665"
+  },
+  {
+    "id": "trial-vts",
+    "label": "VTS-270 in NPC1 · NCT02534844",
+    "type": "clinical study",
+    "dimension": null,
+    "description": "Completed randomized phase 2/3 study; 56 enrolled. Do not extrapolate efficacy from the earlier open-label study.",
+    "external": "https://clinicaltrials.gov/study/NCT02534844"
+  },
+  {
+    "id": "ntsad",
+    "label": "NTSAD",
+    "type": "researcher/patient organization",
+    "dimension": null,
+    "description": "",
+    "external": "https://ntsad.org/"
+  },
+  {
+    "id": "nnpdf",
+    "label": "National Niemann-Pick Disease Foundation",
+    "type": "researcher/patient organization",
+    "dimension": null,
+    "description": "",
+    "external": "https://nnpdf.org/"
+  },
+  {
+    "id": "ngf",
+    "label": "National Gaucher Foundation",
+    "type": "researcher/patient organization",
+    "dimension": null,
+    "description": "",
+    "external": "https://www.gaucherdisease.org/"
+  },
+  {
+    "id": "spf",
+    "label": "Spastic Paraplegia Foundation",
+    "type": "researcher/patient organization",
+    "dimension": null,
+    "description": "",
+    "external": "https://sp-foundation.org/"
+  },
+  {
+    "id": "HEXA",
+    "label": "HEXA",
+    "type": "gene",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "HEXB",
+    "label": "HEXB",
+    "type": "gene",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "NPC1",
+    "label": "NPC1",
+    "type": "gene",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "NPC2",
+    "label": "NPC2",
+    "type": "gene",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "GBA1",
+    "label": "GBA1",
+    "type": "gene",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "SPG11",
+    "label": "SPG11",
+    "type": "gene",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "p-hexa",
+    "label": "Hexosaminidase α subunit",
+    "type": "protein",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "p-hexb",
+    "label": "Hexosaminidase β subunit",
+    "type": "protein",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "p-npc1",
+    "label": "NPC1 cholesterol transporter",
+    "type": "protein",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "p-npc2",
+    "label": "NPC2 cholesterol-binding protein",
+    "type": "protein",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "p-gba",
+    "label": "Glucocerebrosidase",
+    "type": "protein",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "p-spg",
+    "label": "Spatacsin",
+    "type": "protein",
+    "dimension": null,
+    "description": "",
+    "external": null
+  },
+  {
+    "id": "f-hexa",
+    "label": "HEX A deficiency",
+    "type": "variant/function",
+    "dimension": null,
+    "description": "Functional consequence of disease-causing variants; not an assertion that every variant in the gene is pathogenic.",
+    "external": null
+  },
+  {
+    "id": "f-hexb",
+    "label": "HEX A + HEX B deficiency",
+    "type": "variant/function",
+    "dimension": null,
+    "description": "Functional consequence of disease-causing variants; not an assertion that every variant in the gene is pathogenic.",
+    "external": null
+  },
+  {
+    "id": "f-npc",
+    "label": "Defective NPC1/2 lipid transport",
+    "type": "variant/function",
+    "dimension": null,
+    "description": "Functional consequence of disease-causing variants; not an assertion that every variant in the gene is pathogenic.",
+    "external": null
+  },
+  {
+    "id": "f-gba",
+    "label": "Reduced GCase activity",
+    "type": "variant/function",
+    "dimension": null,
+    "description": "Functional consequence of disease-causing variants; not an assertion that every variant in the gene is pathogenic.",
+    "external": null
+  },
+  {
+    "id": "f-spg",
+    "label": "Spatacsin loss of function",
+    "type": "variant/function",
+    "dimension": null,
+    "description": "Functional consequence of disease-causing variants; not an assertion that every variant in the gene is pathogenic.",
+    "external": null
+  },
+  {
+    "id": "tay",
+    "label": "Tay–Sachs disease",
+    "type": "disease",
+    "dimension": null,
+    "description": "Inherited HEXA dysfunction prevents normal breakdown of GM2, a fatty substance that builds up in nerve cells. Age of onset and severity vary.",
+    "external": null
+  },
+  {
+    "id": "sand",
+    "label": "Sandhoff disease",
+    "type": "disease",
+    "dimension": null,
+    "description": "Inherited HEXB dysfunction reduces two related hexosaminidase enzymes. GM2 builds up in nerve cells, with additional substrates and sometimes more systemic involvement.",
+    "external": null
+  },
+  {
+    "id": "npc",
+    "label": "Niemann–Pick disease type C",
+    "type": "disease",
+    "dimension": null,
+    "description": "Changes in NPC1 or NPC2 disrupt movement of cholesterol and other fats inside cells. Effects can involve the liver, spleen, movement, swallowing and cognition.",
+    "external": null
+  },
+  {
+    "id": "gaucher",
+    "label": "Gaucher disease",
+    "type": "disease",
+    "dimension": null,
+    "description": "Reduced GBA1 enzyme activity causes fatty substances to accumulate, particularly in macrophages. Type 1 is primarily systemic; types 2 and 3 also affect the nervous system.",
+    "external": null
+  },
+  {
+    "id": "spg",
+    "label": "SPG11 hereditary spastic paraplegia",
+    "type": "disease",
+    "dimension": null,
+    "description": "SPG11 variants disrupt spatacsin, a protein involved in cellular recycling. Long nerve fibers progressively malfunction, often causing leg stiffness, weakness and cognitive difficulties.",
+    "external": null
+  }
+]

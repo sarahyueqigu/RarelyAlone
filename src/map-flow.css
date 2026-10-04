@@ -1,0 +1,40 @@
+.map-flow {
+  --map-paper: #FFFFFF;
+  --map-ground: #F4F8FA;
+  --map-blue: #24689A;
+  --map-ink: #273842;
+  --font-heading: "Libre Baskerville", Georgia, serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  background: var(--map-ground);
+  color: var(--map-ink);
+  font-family: var(--font-sans);
+  contain: paint;
+}
+.map-flow h1, .map-flow h2, .map-flow h3 { font-family: var(--font-heading); color: var(--map-ink); letter-spacing: 0; }
+.map-flow .map-ink { color: var(--map-ink); }
+.map-flow .map-blue { color: var(--map-blue); }
+.map-flow .map-rule { border-color: color-mix(in srgb, var(--map-blue) 20%, transparent); }
+.map-flow .map-paper { background: var(--map-paper); }
+.map-flow .map-ground { background: var(--map-ground); }
+.map-flow .map-reveal { animation: map-reveal .55s ease-out both; }
+.map-flow .map-reveal-late { animation: map-reveal .6s .12s ease-out both; }
+.map-flow .map-line { transition: stroke-width .2s ease, opacity .2s ease; }
+.map-flow .map-node { animation: map-node-in .5s ease-out both; transform-box: fill-box; transform-origin: center; }
+.map-flow .evidence-node > circle,
+.map-flow .evidence-node > rect { transition: stroke-width .18s ease, filter .18s ease, transform .18s ease; transform-box: fill-box; transform-origin: center; }
+.map-flow .evidence-node:hover > circle,
+.map-flow .evidence-node:focus-visible > circle,
+.map-flow .evidence-node:hover > rect,
+.map-flow .evidence-node:focus-visible > rect { filter: drop-shadow(0 3px 5px color-mix(in srgb, var(--map-ink) 22%, transparent)); transform: scale(1.05); }
+.map-flow .node-tooltip { opacity: 0; transition: opacity .16s ease; }
+.map-flow .evidence-node:hover .node-tooltip,
+.map-flow .evidence-node:focus-visible .node-tooltip { opacity: 1; }
+@keyframes map-reveal { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes map-node-in { from { opacity: 0; transform: scale(.94); } to { opacity: 1; transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) {
+  .map-flow .map-reveal, .map-flow .map-reveal-late, .map-flow .map-node { animation: none; }
+  .map-flow .map-line,
+  .map-flow .evidence-node > circle,
+  .map-flow .evidence-node > rect,
+  .map-flow .node-tooltip { transition: none; }
+}

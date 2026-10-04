@@ -1,0 +1,625 @@
+{
+  "id": "gaucher",
+  "name": "Gaucher disease",
+  "short": "Gaucher",
+  "plain": "Reduced GBA1 enzyme activity causes fatty substances to accumulate, particularly in macrophages. Type 1 is primarily systemic; types 2 and 3 also affect the nervous system.",
+  "scope": "Types 1, 2 and 3 are represented. Neural findings apply to neuronopathic disease or stated models, not all patients.",
+  "edges": [
+    {
+      "id": "gaucher-e001",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "GBA1",
+      "relationship": "caused by biallelic pathogenic variants in",
+      "sourceIds": [
+        "S23"
+      ],
+      "summary": "Disease association requires pathogenic variants on both alleles.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e002",
+      "disease": "gaucher",
+      "source": "GBA1",
+      "target": "p-gba",
+      "relationship": "encodes",
+      "sourceIds": [
+        "S23"
+      ],
+      "summary": "The gene encodes this protein or enzyme subunit.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e003",
+      "disease": "gaucher",
+      "source": "p-gba",
+      "target": "f-gba",
+      "relationship": "loss causes",
+      "sourceIds": [
+        "S23"
+      ],
+      "summary": "Pathogenic loss of protein function produces the biochemical defect.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e004",
+      "disease": "gaucher",
+      "source": "f-gba",
+      "target": "gcase-hydrolysis",
+      "relationship": "impairs",
+      "sourceIds": [
+        "S23"
+      ],
+      "summary": "The functional deficit disrupts this cellular process.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e005",
+      "disease": "gaucher",
+      "source": "gcase-hydrolysis",
+      "target": "lipid-clearance",
+      "relationship": "involves",
+      "sourceIds": [
+        "S23"
+      ],
+      "summary": "Reduced enzyme activity impairs lysosomal substrate degradation.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e006",
+      "disease": "gaucher",
+      "source": "gcase-hydrolysis",
+      "target": "gsl-metabolism",
+      "relationship": "involves",
+      "sourceIds": [
+        "S23"
+      ],
+      "summary": "Glucocerebrosidase hydrolyzes glucosylceramide.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e007",
+      "disease": "gaucher",
+      "source": "lipid-clearance",
+      "target": "lys-homeostasis",
+      "relationship": "involves",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Lipid storage disrupts lysosomal handling in affected cells.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e008",
+      "disease": "gaucher",
+      "source": "gcase-hydrolysis",
+      "target": "glc-cer",
+      "relationship": "causes accumulation of",
+      "sourceIds": [
+        "S23"
+      ],
+      "summary": "Glucosylceramide accumulates due to reduced enzymatic breakdown.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e009",
+      "disease": "gaucher",
+      "source": "gcase-hydrolysis",
+      "target": "lyso-gb1",
+      "relationship": "associated with",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Glucosylsphingosine is elevated and used as a disease biomarker.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e010",
+      "disease": "gaucher",
+      "source": "glc-cer",
+      "target": "gsl",
+      "relationship": "is a",
+      "sourceIds": [
+        "S23"
+      ],
+      "summary": "Glucosylceramide is a glycosphingolipid.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e011",
+      "disease": "gaucher",
+      "source": "gcase-hydrolysis",
+      "target": "lipid-storage",
+      "relationship": "involves",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Storage prominently affects macrophages.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e012",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "autophagy-defect",
+      "relationship": "involves",
+      "sourceIds": [
+        "S13"
+      ],
+      "summary": "Gba-deficient neurons and astrocytes show defective cellular quality control.",
+      "direct": true,
+      "evidenceType": "mouse-cell experiment",
+      "confidence": 0.84,
+      "context": "Neuronopathic Gba knockout model",
+      "contradictions": [
+        {
+          "sourceId": "S12",
+          "summary": "Gaucher fibroblasts had normal Beclin-1 and LC3-II in an earlier comparison; the phenotype is model-dependent."
+        }
+      ],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e013",
+      "disease": "gaucher",
+      "source": "autophagy-defect",
+      "target": "mitophagy",
+      "relationship": "involves",
+      "sourceIds": [
+        "S13"
+      ],
+      "summary": "Impaired quality control accompanies damaged mitochondria.",
+      "direct": true,
+      "evidenceType": "mouse-cell experiment",
+      "confidence": 0.84,
+      "context": "Neuronopathic model",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e014",
+      "disease": "gaucher",
+      "source": "mitophagy",
+      "target": "mito-dysfunction",
+      "relationship": "involves",
+      "sourceIds": [
+        "S13"
+      ],
+      "summary": "Gba-deficient cells accumulate dysfunctional mitochondria.",
+      "direct": true,
+      "evidenceType": "mouse-cell experiment",
+      "confidence": 0.86,
+      "context": "Neuronopathic model",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e015",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "hsm",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Enlargement of liver and spleen.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e016",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "bone",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Prominent systemic manifestations of Gaucher disease.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e017",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "neuronal-loss",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Broad neural consequence; vulnerable populations differ.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Neuronopathic types 2/3; not generalized to type 1",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e018",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "cognitive",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Variable learning or cognitive difficulties.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Neuronopathic types 2/3; not generalized to type 1",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e019",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "gaze",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "NPC and neuronopathic Gaucher involve different gaze patterns.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Neuronopathic types 2/3; not generalized to type 1",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e020",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "seizures",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Variable across age, disease and subtype.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Neuronopathic types 2/3; not generalized to type 1",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e021",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "miglustat",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Enzyme replacement and substrate reduction are disease-specific options with subtype and eligibility restrictions.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e022",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "ert",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Enzyme replacement and substrate reduction are disease-specific options with subtype and eligibility restrictions.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e023",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "lipidomics",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Glucosylsphingosine and other lipid measurements support disease monitoring.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e024",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "mouse",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S13"
+      ],
+      "summary": "Gba knockout model and autophagy assays reveal context-specific quality-control defects.",
+      "direct": true,
+      "evidenceType": "experimental model",
+      "confidence": 0.84,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e025",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "flux-assay",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S13"
+      ],
+      "summary": "Gba knockout model and autophagy assays reveal context-specific quality-control defects.",
+      "direct": true,
+      "evidenceType": "experimental model",
+      "confidence": 0.84,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e026",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "fibroblasts",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "Patient fibroblasts were included in a comparative autophagy experiment.",
+      "direct": true,
+      "evidenceType": "patient-cell experiment",
+      "confidence": 0.9,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e027",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "ngf",
+      "relationship": "supported by",
+      "sourceIds": [
+        "S27"
+      ],
+      "summary": "Disease-specific or allied patient support and research organization.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e028",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "S04",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S04"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Curated clinical reference",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e029",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "S12",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Primary experimental study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e030",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "S13",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S13"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Primary experimental study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e031",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "S23",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S23"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Curated gene reference",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "gaucher-e032",
+      "disease": "gaucher",
+      "source": "gaucher",
+      "target": "S27",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S27"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Patient organization",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    }
+  ],
+  "nodeIds": [
+    "GBA1",
+    "S04",
+    "S12",
+    "S13",
+    "S23",
+    "S27",
+    "autophagy-defect",
+    "bone",
+    "cognitive",
+    "ert",
+    "f-gba",
+    "fibroblasts",
+    "flux-assay",
+    "gaucher",
+    "gaze",
+    "gcase-hydrolysis",
+    "glc-cer",
+    "gsl",
+    "gsl-metabolism",
+    "hsm",
+    "lipid-clearance",
+    "lipid-storage",
+    "lipidomics",
+    "lys-homeostasis",
+    "lyso-gb1",
+    "miglustat",
+    "mito-dysfunction",
+    "mitophagy",
+    "mouse",
+    "neuronal-loss",
+    "ngf",
+    "p-gba",
+    "seizures"
+  ]
+}

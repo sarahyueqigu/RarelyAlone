@@ -1,0 +1,545 @@
+{
+  "id": "sand",
+  "name": "Sandhoff disease",
+  "short": "Sandhoff",
+  "plain": "Inherited HEXB dysfunction reduces two related hexosaminidase enzymes. GM2 builds up in nerve cells, with additional substrates and sometimes more systemic involvement.",
+  "scope": "HEXB-related disease across onset ages. Not identical to HEXA deficiency.",
+  "edges": [
+    {
+      "id": "sand-e001",
+      "disease": "sand",
+      "source": "sand",
+      "target": "HEXB",
+      "relationship": "caused by biallelic pathogenic variants in",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Disease association requires pathogenic variants on both alleles.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e002",
+      "disease": "sand",
+      "source": "HEXB",
+      "target": "p-hexb",
+      "relationship": "encodes",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "The gene encodes this protein or enzyme subunit.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e003",
+      "disease": "sand",
+      "source": "p-hexb",
+      "target": "f-hexb",
+      "relationship": "loss causes",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Pathogenic loss of protein function produces the biochemical defect.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e004",
+      "disease": "sand",
+      "source": "f-hexb",
+      "target": "gm2-breakdown",
+      "relationship": "impairs",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "The functional deficit disrupts this cellular process.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e005",
+      "disease": "sand",
+      "source": "gm2-breakdown",
+      "target": "gm2-catabolism",
+      "relationship": "involves",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Reduced HEX A activity disrupts GM2 degradation.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e006",
+      "disease": "sand",
+      "source": "gm2-breakdown",
+      "target": "lipid-clearance",
+      "relationship": "involves",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Enzyme deficiency prevents lysosomal lipid clearance.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e007",
+      "disease": "sand",
+      "source": "gm2-catabolism",
+      "target": "gsl-metabolism",
+      "relationship": "involves",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "The affected pathway degrades gangliosides.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e008",
+      "disease": "sand",
+      "source": "lipid-clearance",
+      "target": "lys-homeostasis",
+      "relationship": "involves",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Substrate retention disrupts lysosomal function.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e009",
+      "disease": "sand",
+      "source": "gm2-breakdown",
+      "target": "gm2",
+      "relationship": "causes accumulation of",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "GM2 accumulates when HEX A is deficient.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e010",
+      "disease": "sand",
+      "source": "gm2",
+      "target": "gsl",
+      "relationship": "is a",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "GM2 is a glycosphingolipid.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e011",
+      "disease": "sand",
+      "source": "gm2",
+      "target": "lipid-storage",
+      "relationship": "involves",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Gangliosides are progressively stored in neurons.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e012",
+      "disease": "sand",
+      "source": "lipid-storage",
+      "target": "neuronal-loss",
+      "relationship": "involves",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Stored gangliosides are associated with neuronal dysfunction and loss.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e013",
+      "disease": "sand",
+      "source": "f-hexb",
+      "target": "ga2",
+      "relationship": "affects additional substrates",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Loss of HEX B adds neutral glycolipid / oligosaccharide degradation defects.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e014",
+      "disease": "sand",
+      "source": "sand",
+      "target": "regression",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Especially early-onset GM2 disease; not universal across ages.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e015",
+      "disease": "sand",
+      "source": "sand",
+      "target": "seizures",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Variable across age, disease and subtype.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e016",
+      "disease": "sand",
+      "source": "sand",
+      "target": "ataxia",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Impaired coordination.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e017",
+      "disease": "sand",
+      "source": "sand",
+      "target": "cognitive",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Variable learning or cognitive difficulties.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e018",
+      "disease": "sand",
+      "source": "sand",
+      "target": "hsm",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Enlargement of liver and spleen.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e019",
+      "disease": "sand",
+      "source": "sand",
+      "target": "enzyme-assay",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Enzyme patterns distinguish combined HEX A/B deficiency from isolated HEX A deficiency.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e020",
+      "disease": "sand",
+      "source": "sand",
+      "target": "nal",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S17",
+        "S24"
+      ],
+      "summary": "Shared GM2 intervention study; this is a research connection, not a treatment recommendation.",
+      "direct": true,
+      "evidenceType": "human study registry",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e021",
+      "disease": "sand",
+      "source": "sand",
+      "target": "trial-gm2",
+      "relationship": "included in",
+      "sourceIds": [
+        "S17"
+      ],
+      "summary": "Sandhoff was an eligible condition in NCT03759665.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e022",
+      "disease": "sand",
+      "source": "sand",
+      "target": "autophagy-defect",
+      "relationship": "involves",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "Sandhoff fibroblasts showed elevated Beclin-1 and LC3-II.",
+      "direct": true,
+      "evidenceType": "patient-cell experiment",
+      "confidence": 0.8,
+      "context": "Primary fibroblasts; static markers do not resolve all flux stages",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e023",
+      "disease": "sand",
+      "source": "sand",
+      "target": "ntsad",
+      "relationship": "supported by",
+      "sourceIds": [
+        "S25"
+      ],
+      "summary": "Disease-specific or allied patient support and research organization.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e024",
+      "disease": "sand",
+      "source": "sand",
+      "target": "S02",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S02"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Curated clinical reference",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e025",
+      "disease": "sand",
+      "source": "sand",
+      "target": "S12",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Primary experimental study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e026",
+      "disease": "sand",
+      "source": "sand",
+      "target": "S17",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S17"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "ClinicalTrials.gov registry",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e027",
+      "disease": "sand",
+      "source": "sand",
+      "target": "S24",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S24"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Human intervention study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "sand-e028",
+      "disease": "sand",
+      "source": "sand",
+      "target": "S25",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S25"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Patient organization",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    }
+  ],
+  "nodeIds": [
+    "HEXB",
+    "S02",
+    "S12",
+    "S17",
+    "S24",
+    "S25",
+    "ataxia",
+    "autophagy-defect",
+    "cognitive",
+    "enzyme-assay",
+    "f-hexb",
+    "ga2",
+    "gm2",
+    "gm2-breakdown",
+    "gm2-catabolism",
+    "gsl",
+    "gsl-metabolism",
+    "hsm",
+    "lipid-clearance",
+    "lipid-storage",
+    "lys-homeostasis",
+    "nal",
+    "neuronal-loss",
+    "ntsad",
+    "p-hexb",
+    "regression",
+    "sand",
+    "seizures",
+    "trial-gm2"
+  ]
+}

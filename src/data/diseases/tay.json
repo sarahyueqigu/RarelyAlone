@@ -1,0 +1,469 @@
+{
+  "id": "tay",
+  "name": "Tay–Sachs disease",
+  "short": "Tay–Sachs",
+  "plain": "Inherited HEXA dysfunction prevents normal breakdown of GM2, a fatty substance that builds up in nerve cells. Age of onset and severity vary.",
+  "scope": "HEXA-related infantile, juvenile and adult forms; not GM2 activator deficiency.",
+  "edges": [
+    {
+      "id": "tay-e001",
+      "disease": "tay",
+      "source": "tay",
+      "target": "HEXA",
+      "relationship": "caused by biallelic pathogenic variants in",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Disease association requires pathogenic variants on both alleles.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e002",
+      "disease": "tay",
+      "source": "HEXA",
+      "target": "p-hexa",
+      "relationship": "encodes",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "The gene encodes this protein or enzyme subunit.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e003",
+      "disease": "tay",
+      "source": "p-hexa",
+      "target": "f-hexa",
+      "relationship": "loss causes",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Pathogenic loss of protein function produces the biochemical defect.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e004",
+      "disease": "tay",
+      "source": "f-hexa",
+      "target": "gm2-breakdown",
+      "relationship": "impairs",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "The functional deficit disrupts this cellular process.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e005",
+      "disease": "tay",
+      "source": "gm2-breakdown",
+      "target": "gm2-catabolism",
+      "relationship": "involves",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "HEX A deficiency blocks the GM2 degradative step.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e006",
+      "disease": "tay",
+      "source": "gm2-breakdown",
+      "target": "lipid-clearance",
+      "relationship": "involves",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Failure to degrade GM2 is a specific form of impaired lysosomal lipid clearance.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e007",
+      "disease": "tay",
+      "source": "gm2-catabolism",
+      "target": "gsl-metabolism",
+      "relationship": "involves",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "GM2 is a glycosphingolipid.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e008",
+      "disease": "tay",
+      "source": "lipid-clearance",
+      "target": "lys-homeostasis",
+      "relationship": "involves",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "GM2 storage disrupts lysosomal function.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e009",
+      "disease": "tay",
+      "source": "gm2-breakdown",
+      "target": "gm2",
+      "relationship": "causes accumulation of",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "GM2 is the principal accumulating substrate.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e010",
+      "disease": "tay",
+      "source": "gm2",
+      "target": "gsl",
+      "relationship": "is a",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "GM2 belongs to the glycosphingolipid class.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e011",
+      "disease": "tay",
+      "source": "gm2",
+      "target": "lipid-storage",
+      "relationship": "involves",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Ganglioside storage occurs in neuronal lysosomes.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e012",
+      "disease": "tay",
+      "source": "lipid-storage",
+      "target": "neuronal-loss",
+      "relationship": "involves",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Progressive storage accompanies neuronal impairment and loss.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e013",
+      "disease": "tay",
+      "source": "tay",
+      "target": "regression",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Especially early-onset GM2 disease; not universal across ages.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e014",
+      "disease": "tay",
+      "source": "tay",
+      "target": "seizures",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Variable across age, disease and subtype.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e015",
+      "disease": "tay",
+      "source": "tay",
+      "target": "ataxia",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Impaired coordination.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e016",
+      "disease": "tay",
+      "source": "tay",
+      "target": "cognitive",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Variable learning or cognitive difficulties.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e017",
+      "disease": "tay",
+      "source": "tay",
+      "target": "enzyme-assay",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Enzyme activity and molecular testing support diagnosis and biochemical discrimination.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e018",
+      "disease": "tay",
+      "source": "tay",
+      "target": "nal",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S17",
+        "S24"
+      ],
+      "summary": "N-acetyl-L-leucine was studied in a shared GM2 trial; participation does not establish efficacy.",
+      "direct": true,
+      "evidenceType": "human study registry",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e019",
+      "disease": "tay",
+      "source": "tay",
+      "target": "trial-gm2",
+      "relationship": "included in",
+      "sourceIds": [
+        "S17"
+      ],
+      "summary": "Tay–Sachs was an eligible condition in NCT03759665.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e020",
+      "disease": "tay",
+      "source": "tay",
+      "target": "ntsad",
+      "relationship": "supported by",
+      "sourceIds": [
+        "S25"
+      ],
+      "summary": "Disease-specific or allied patient support and research organization.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e021",
+      "disease": "tay",
+      "source": "tay",
+      "target": "S01",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S01"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Curated clinical reference",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e022",
+      "disease": "tay",
+      "source": "tay",
+      "target": "S17",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S17"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "ClinicalTrials.gov registry",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e023",
+      "disease": "tay",
+      "source": "tay",
+      "target": "S24",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S24"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Human intervention study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "tay-e024",
+      "disease": "tay",
+      "source": "tay",
+      "target": "S25",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S25"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Patient organization",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    }
+  ],
+  "nodeIds": [
+    "HEXA",
+    "S01",
+    "S17",
+    "S24",
+    "S25",
+    "ataxia",
+    "cognitive",
+    "enzyme-assay",
+    "f-hexa",
+    "gm2",
+    "gm2-breakdown",
+    "gm2-catabolism",
+    "gsl",
+    "gsl-metabolism",
+    "lipid-clearance",
+    "lipid-storage",
+    "lys-homeostasis",
+    "nal",
+    "neuronal-loss",
+    "ntsad",
+    "p-hexa",
+    "regression",
+    "seizures",
+    "tay",
+    "trial-gm2"
+  ]
+}

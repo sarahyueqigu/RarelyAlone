@@ -1,0 +1,833 @@
+{
+  "id": "npc",
+  "name": "Niemann–Pick disease type C",
+  "short": "NPC",
+  "plain": "Changes in NPC1 or NPC2 disrupt movement of cholesterol and other fats inside cells. Effects can involve the liver, spleen, movement, swallowing and cognition.",
+  "scope": "NPC1- and NPC2-related disease; excludes acid sphingomyelinase deficiency (types A/B).",
+  "edges": [
+    {
+      "id": "npc-e001",
+      "disease": "npc",
+      "source": "npc",
+      "target": "NPC1",
+      "relationship": "caused by biallelic pathogenic variants in",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "Disease association requires pathogenic variants on both alleles.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e002",
+      "disease": "npc",
+      "source": "NPC1",
+      "target": "p-npc1",
+      "relationship": "encodes",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "The gene encodes this protein or enzyme subunit.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e003",
+      "disease": "npc",
+      "source": "p-npc1",
+      "target": "f-npc",
+      "relationship": "loss causes",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "Pathogenic loss of protein function produces the biochemical defect.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e004",
+      "disease": "npc",
+      "source": "f-npc",
+      "target": "chol-export",
+      "relationship": "impairs",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "The functional deficit disrupts this cellular process.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e005",
+      "disease": "npc",
+      "source": "npc",
+      "target": "NPC2",
+      "relationship": "can also be caused by biallelic variants in",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "NPC2 causes a minority of NPC cases.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e006",
+      "disease": "npc",
+      "source": "NPC2",
+      "target": "p-npc2",
+      "relationship": "encodes",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "NPC2 encodes a lysosomal cholesterol-binding protein.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e007",
+      "disease": "npc",
+      "source": "p-npc2",
+      "target": "f-npc",
+      "relationship": "loss disrupts",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "NPC2 dysfunction disrupts the same cholesterol-export system.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.98,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e008",
+      "disease": "npc",
+      "source": "chol-export",
+      "target": "lipid-clearance",
+      "relationship": "involves",
+      "sourceIds": [
+        "S21"
+      ],
+      "summary": "Cholesterol transport failure produces retention of multiple lipids.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e009",
+      "disease": "npc",
+      "source": "chol-export",
+      "target": "chol-homeostasis",
+      "relationship": "involves",
+      "sourceIds": [
+        "S21"
+      ],
+      "summary": "Endolysosomal cholesterol export is defective.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e010",
+      "disease": "npc",
+      "source": "lipid-clearance",
+      "target": "lys-homeostasis",
+      "relationship": "involves",
+      "sourceIds": [
+        "S21"
+      ],
+      "summary": "Lysosomes accumulate cholesterol and additional lipid classes.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e011",
+      "disease": "npc",
+      "source": "lipid-clearance",
+      "target": "gsl-metabolism",
+      "relationship": "involves",
+      "sourceIds": [
+        "S21"
+      ],
+      "summary": "Glycosphingolipid storage is part of NPC biology.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e012",
+      "disease": "npc",
+      "source": "chol-export",
+      "target": "cholesterol",
+      "relationship": "causes accumulation of",
+      "sourceIds": [
+        "S21"
+      ],
+      "summary": "Unesterified cholesterol is retained.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e013",
+      "disease": "npc",
+      "source": "cholesterol",
+      "target": "chol-storage",
+      "relationship": "involves",
+      "sourceIds": [
+        "S21"
+      ],
+      "summary": "Lysosomal accumulation is a characteristic cellular feature.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e014",
+      "disease": "npc",
+      "source": "lipid-clearance",
+      "target": "gsl",
+      "relationship": "affects",
+      "sourceIds": [
+        "S21"
+      ],
+      "summary": "Secondary storage includes glycosphingolipids.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e015",
+      "disease": "npc",
+      "source": "lipid-clearance",
+      "target": "glc-cer",
+      "relationship": "affects",
+      "sourceIds": [
+        "S21"
+      ],
+      "summary": "Glucosylceramide can be increased among stored NPC lipids.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Tissue-dependent secondary lipid storage",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e016",
+      "disease": "npc",
+      "source": "lipid-clearance",
+      "target": "lipid-storage",
+      "relationship": "involves",
+      "sourceIds": [
+        "S21"
+      ],
+      "summary": "Multiple lipid classes accumulate in late endosomes and lysosomes.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e017",
+      "disease": "npc",
+      "source": "npc",
+      "target": "autophagy-defect",
+      "relationship": "involves",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "NPC1-deficient cells show increased autophagy-related activity and Beclin-1.",
+      "direct": true,
+      "evidenceType": "patient-cell and mouse-cell experiment",
+      "confidence": 0.85,
+      "context": "Primary fibroblasts; not a universal block at the SPG11 ALR step",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e018",
+      "disease": "npc",
+      "source": "npc",
+      "target": "neuronal-loss",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "Broad neural consequence; vulnerable populations differ.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e019",
+      "disease": "npc",
+      "source": "npc",
+      "target": "ataxia",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "Impaired coordination.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e020",
+      "disease": "npc",
+      "source": "npc",
+      "target": "cognitive",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "Variable learning or cognitive difficulties.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e021",
+      "disease": "npc",
+      "source": "npc",
+      "target": "hsm",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "Enlargement of liver and spleen.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e022",
+      "disease": "npc",
+      "source": "npc",
+      "target": "gaze",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "NPC and neuronopathic Gaucher involve different gaze patterns.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e023",
+      "disease": "npc",
+      "source": "npc",
+      "target": "seizures",
+      "relationship": "can manifest as",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "Variable across age, disease and subtype.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e024",
+      "disease": "npc",
+      "source": "npc",
+      "target": "filipin",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "Filipin staining can identify abnormal intracellular cholesterol distribution.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e025",
+      "disease": "npc",
+      "source": "npc",
+      "target": "fibroblasts",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "Disease fibroblasts and mouse cells support study of lipid trafficking and autophagy.",
+      "direct": true,
+      "evidenceType": "experimental model",
+      "confidence": 0.86,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e026",
+      "disease": "npc",
+      "source": "npc",
+      "target": "mouse",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "Disease fibroblasts and mouse cells support study of lipid trafficking and autophagy.",
+      "direct": true,
+      "evidenceType": "experimental model",
+      "confidence": 0.86,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e027",
+      "disease": "npc",
+      "source": "npc",
+      "target": "flux-assay",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "Disease fibroblasts and mouse cells support study of lipid trafficking and autophagy.",
+      "direct": true,
+      "evidenceType": "experimental model",
+      "confidence": 0.86,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e028",
+      "disease": "npc",
+      "source": "npc",
+      "target": "miglustat",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S18"
+      ],
+      "summary": "Miglustat is part of the FDA-approved arimoclomol combination for NPC neurological manifestations.",
+      "direct": true,
+      "evidenceType": "regulatory evidence",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e029",
+      "disease": "npc",
+      "source": "npc",
+      "target": "arimo",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S18"
+      ],
+      "summary": "FDA approved arimoclomol with miglustat for neurological manifestations at age 2 years and older.",
+      "direct": true,
+      "evidenceType": "regulatory evidence",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e030",
+      "disease": "npc",
+      "source": "npc",
+      "target": "nal",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S19"
+      ],
+      "summary": "FDA approved levacetylleucine for NPC neurological manifestations in patients weighing at least 15 kg.",
+      "direct": true,
+      "evidenceType": "regulatory evidence",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e031",
+      "disease": "npc",
+      "source": "npc",
+      "target": "hpbcd",
+      "relationship": "has research asset",
+      "sourceIds": [
+        "S14"
+      ],
+      "summary": "An early open-label NPC1 study reported slower progression versus historical controls and hearing loss.",
+      "direct": true,
+      "evidenceType": "nonrandomized human intervention",
+      "confidence": 0.88,
+      "context": "Historical-control phase 1–2; not established clinical efficacy",
+      "contradictions": [
+        {
+          "sourceId": "S22",
+          "summary": "A later randomized trial exists; the early uncontrolled result alone is insufficient to establish benefit."
+        }
+      ],
+      "scoreEligible": true,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e032",
+      "disease": "npc",
+      "source": "npc",
+      "target": "trial-npc",
+      "relationship": "studied in",
+      "sourceIds": [
+        "S16"
+      ],
+      "summary": "Registered intrathecal HPβCD study, completed, 14 enrolled.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e033",
+      "disease": "npc",
+      "source": "npc",
+      "target": "trial-vts",
+      "relationship": "studied in",
+      "sourceIds": [
+        "S22"
+      ],
+      "summary": "Randomized VTS-270 study, completed, 56 enrolled.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e034",
+      "disease": "npc",
+      "source": "npc",
+      "target": "nnpdf",
+      "relationship": "supported by",
+      "sourceIds": [
+        "S26"
+      ],
+      "summary": "Disease-specific or allied patient support and research organization.",
+      "direct": true,
+      "evidenceType": "curated disease biology",
+      "confidence": 0.95,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e035",
+      "disease": "npc",
+      "source": "npc",
+      "target": "S03",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S03"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Curated clinical reference",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e036",
+      "disease": "npc",
+      "source": "npc",
+      "target": "S12",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Primary experimental study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e037",
+      "disease": "npc",
+      "source": "npc",
+      "target": "S14",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S14"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Human intervention study",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e038",
+      "disease": "npc",
+      "source": "npc",
+      "target": "S16",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S16"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "ClinicalTrials.gov registry",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e039",
+      "disease": "npc",
+      "source": "npc",
+      "target": "S18",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S18"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Regulatory source",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e040",
+      "disease": "npc",
+      "source": "npc",
+      "target": "S19",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S19"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Regulatory source",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e041",
+      "disease": "npc",
+      "source": "npc",
+      "target": "S21",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S21"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Curated disease review",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e042",
+      "disease": "npc",
+      "source": "npc",
+      "target": "S22",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S22"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "ClinicalTrials.gov registry",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    },
+    {
+      "id": "npc-e043",
+      "disease": "npc",
+      "source": "npc",
+      "target": "S26",
+      "relationship": "documented in",
+      "sourceIds": [
+        "S26"
+      ],
+      "summary": "Source supporting the disease-specific evidence subgraph.",
+      "direct": true,
+      "evidenceType": "Patient organization",
+      "confidence": 0.99,
+      "context": "Human disease",
+      "contradictions": [],
+      "scoreEligible": false,
+      "polarity": "support"
+    }
+  ],
+  "nodeIds": [
+    "NPC1",
+    "NPC2",
+    "S03",
+    "S12",
+    "S14",
+    "S16",
+    "S18",
+    "S19",
+    "S21",
+    "S22",
+    "S26",
+    "arimo",
+    "ataxia",
+    "autophagy-defect",
+    "chol-export",
+    "chol-homeostasis",
+    "chol-storage",
+    "cholesterol",
+    "cognitive",
+    "f-npc",
+    "fibroblasts",
+    "filipin",
+    "flux-assay",
+    "gaze",
+    "glc-cer",
+    "gsl",
+    "gsl-metabolism",
+    "hpbcd",
+    "hsm",
+    "lipid-clearance",
+    "lipid-storage",
+    "lys-homeostasis",
+    "miglustat",
+    "mouse",
+    "nal",
+    "neuronal-loss",
+    "nnpdf",
+    "npc",
+    "p-npc1",
+    "p-npc2",
+    "seizures",
+    "trial-npc",
+    "trial-vts"
+  ]
+}

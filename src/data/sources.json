@@ -1,0 +1,254 @@
+[
+  {
+    "id": "S01",
+    "title": "HEXA Disorders · GeneReviews",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK1218/",
+    "type": "Curated clinical reference",
+    "year": 2020,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S02",
+    "title": "Sandhoff Disease · GeneReviews",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK579484/",
+    "type": "Curated clinical reference",
+    "year": 2022,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S03",
+    "title": "Niemann-Pick Disease Type C · GeneReviews",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK1296/",
+    "type": "Curated clinical reference",
+    "year": "Living reference",
+    "accessed": "2026-10-03",
+    "note": "Access date is recorded; no claim of a specific revision date."
+  },
+  {
+    "id": "S04",
+    "title": "Gaucher Disease · GeneReviews",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK1269/",
+    "type": "Curated clinical reference",
+    "year": 2023,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S05",
+    "title": "Spastic Paraplegia 11 · GeneReviews",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK1210/",
+    "type": "Curated clinical reference",
+    "year": 2019,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S06",
+    "title": "Boutry et al. · Loss of spatacsin impairs cholesterol trafficking and calcium homeostasis",
+    "url": "https://doi.org/10.1038/s42003-019-0615-z",
+    "type": "Primary experimental study",
+    "year": 2019,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S07",
+    "title": "Boutry et al. · Inhibition of lysosome membrane recycling causes accumulation of gangliosides",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29949766/",
+    "type": "Primary experimental study",
+    "year": 2018,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S08",
+    "title": "Chang et al. · Spastizin and spatacsin mediate autophagic lysosome reformation",
+    "url": "https://www.jci.org/articles/view/77598",
+    "type": "Primary experimental study",
+    "year": 2014,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S09",
+    "title": "Chai et al. · LXR agonists rescue axonal degeneration in SPG11-deficient neurons",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37709208/",
+    "type": "Human-cell experimental study",
+    "year": 2023,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S10",
+    "title": "Mero et al. · Miglustat does not impact clinical progression in SPG11",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41428099/",
+    "type": "Human intervention study",
+    "year": 2025,
+    "accessed": "2026-10-03",
+    "note": "Published online 22 December 2025; 2026 journal volume. Open-label, single-center phase II study; safety was the primary outcome."
+  },
+  {
+    "id": "S11",
+    "title": "Fortier et al. · Decreasing ganglioside synthesis delays symptom onset in Spg11 knockout mice",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38876323/",
+    "type": "Primary experimental study",
+    "year": 2024,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S12",
+    "title": "Pacheco et al. · Autophagy in NPC is Beclin-1 dependent and responsive to lipid trafficking defects",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17468177/",
+    "type": "Primary experimental study",
+    "year": 2007,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S13",
+    "title": "Osellame et al. · Mitochondria and quality-control defects in a Gaucher mouse model",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23707074/",
+    "type": "Primary experimental study",
+    "year": 2013,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S14",
+    "title": "Ory et al. · Intrathecal HPβCD in NPC1: non-randomized phase 1–2 trial",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28803710/",
+    "type": "Human intervention study",
+    "year": 2017,
+    "accessed": "2026-10-03",
+    "note": "Early open-label findings do not establish efficacy; hearing loss was documented."
+  },
+  {
+    "id": "S15",
+    "title": "TreatSPG11 · NCT04768166",
+    "url": "https://clinicaltrials.gov/study/NCT04768166",
+    "type": "ClinicalTrials.gov registry",
+    "year": 2022,
+    "accessed": "2026-10-03",
+    "note": "Completed; 10 enrolled; last registry update 11 April 2022. Registry status is distinct from the 2025 results publication."
+  },
+  {
+    "id": "S16",
+    "title": "HPβCD in NPC1 · NCT01747135",
+    "url": "https://clinicaltrials.gov/study/NCT01747135",
+    "type": "ClinicalTrials.gov registry",
+    "year": 2021,
+    "accessed": "2026-10-03",
+    "note": "Completed; 14 enrolled; last registry update 23 July 2021."
+  },
+  {
+    "id": "S17",
+    "title": "N-acetyl-L-leucine in GM2 gangliosidosis · NCT03759665",
+    "url": "https://clinicaltrials.gov/study/NCT03759665",
+    "type": "ClinicalTrials.gov registry",
+    "year": 2024,
+    "accessed": "2026-10-03",
+    "note": "Completed; 30 enrolled; last registry update 12 March 2024."
+  },
+  {
+    "id": "S18",
+    "title": "FDA · Miplyffa approval",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-niemann-pick-disease-type-c",
+    "type": "Regulatory source",
+    "year": 2024,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S19",
+    "title": "FDA · Aqneursa approval",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-drug-treat-niemann-pick-disease-type-c",
+    "type": "Regulatory source",
+    "year": 2024,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S20",
+    "title": "Vantaggiato et al. · Naringenin and SMER28 rescue lysosomal reformation in SPG11/SPG15 models",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40550407/",
+    "type": "Primary experimental study",
+    "year": 2025,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S21",
+    "title": "Vanier · Niemann-Pick disease type C",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2902432/",
+    "type": "Curated disease review",
+    "year": 2010,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S22",
+    "title": "VTS-270 in NPC1 · NCT02534844",
+    "url": "https://clinicaltrials.gov/study/NCT02534844",
+    "type": "ClinicalTrials.gov registry",
+    "year": 2023,
+    "accessed": "2026-10-03",
+    "note": "Completed randomized phase 2/3 study; 56 enrolled. Do not extrapolate efficacy from the earlier open-label study."
+  },
+  {
+    "id": "S23",
+    "title": "MedlinePlus Genetics · GBA1",
+    "url": "https://medlineplus.gov/genetics/gene/gba1/",
+    "type": "Curated gene reference",
+    "year": 2020,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S24",
+    "title": "N-acetyl-L-leucine in children and adults with GM2 gangliosidoses",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36456200/",
+    "type": "Human intervention study",
+    "year": 2022,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S25",
+    "title": "National Tay-Sachs & Allied Diseases Association",
+    "url": "https://ntsad.org/",
+    "type": "Patient organization",
+    "year": 2026,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S26",
+    "title": "National Niemann-Pick Disease Foundation",
+    "url": "https://nnpdf.org/",
+    "type": "Patient organization",
+    "year": 2026,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S27",
+    "title": "National Gaucher Foundation",
+    "url": "https://www.gaucherdisease.org/",
+    "type": "Patient organization",
+    "year": 2026,
+    "accessed": "2026-10-03",
+    "note": ""
+  },
+  {
+    "id": "S28",
+    "title": "Spastic Paraplegia Foundation",
+    "url": "https://sp-foundation.org/",
+    "type": "Patient organization",
+    "year": 2026,
+    "accessed": "2026-10-03",
+    "note": ""
+  }
+]
