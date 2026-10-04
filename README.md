@@ -22,3 +22,12 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+
+## Data
+The dataset was assembled through a series of API calls to NORD, OMIM, ClinicalTrials.gov, HPO, PubMed/PMC, NIH RePORTER, and Orphanet. All web-scraping, API retrieval, and consolidation of the resulting data into a structured JSON file were implemented in the Python script pipeline.py. The pipeline first web-scraped NORD to generate a sampled list of rare diseases. It then used OMIM to identify disease-associated genes and their mechanisms of action, and HPO to characterize each disease’s phenotype. PubMed/PMC provided relevant academic literature, while NIH RePORTER identified related research funding. Finally, ClinicalTrials.gov was used to locate ongoing clinical trials, and Orphanet provided information on active expert communities and patient foundations that individuals can use to find support and learn more about their condition.
+
+To run this dataset, simply type in 
+``python3 pipeline.py --pages [#]-[#] --out filename.json``
+
+where pages [#]-[#] list the page numbers within NORD
+
